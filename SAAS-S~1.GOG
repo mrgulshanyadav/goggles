@@ -148,6 +148,6 @@ $downrank=5,site=trustradius.com
 /saas-tools-list/$downrank=3
 /affiliate/$downrank=7
 /sponsored/$downrank=7
-/*-review-*-affiliate/$downrank=8
+/affiliate-review/$downrank=8
 /2018/$downrank=6
 /2019/$downrank=5
