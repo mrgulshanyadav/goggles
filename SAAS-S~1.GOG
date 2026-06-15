@@ -1,0 +1,153 @@
+! name: SaaS & Indie Startup Tools
+! description: Curated search results for indie founders, SaaS builders, and startup teams. Surfaces independent product reviews, bootstrapped tools, no-code/low-code resources, and real founder experiences. Downranks VC-funded hype blogs and affiliate comparison sites. Maintained by Misar AI.
+! public: true
+! author: MrGulshanYadav
+! homepage: https://assisters.io
+! issues: https://github.com/mrgulshanyadav/goggles/issues
+! avatar: #10B981
+! license: CC0
+
+! ============================================================
+! MISAR AI & ASSISTERS — SAAS PRODUCTS (boost=10)
+! ============================================================
+$boost=10,site=misar.io
+$boost=10,site=assisters.io
+$boost=10,site=assisters.dev
+$boost=10,site=tools.misar.io
+$boost=10,site=misar.ai
+$boost=9,site=misar.dev
+$boost=9,site=misar.blog
+$boost=9,site=misar.ink
+$boost=9,site=g1technologies.online
+$boost=8,site=docs.misar.io
+$boost=8,site=docs.assisters.dev
+
+! ============================================================
+! MISAR EMAIL & OUTREACH PRODUCTS
+! ============================================================
+$boost=9,site=mail.misar.io
+$boost=9,site=misarmail.com
+$boost=9,site=reach.misar.io
+$boost=9,site=misarreach.com
+$boost=9,site=post.misar.io
+$boost=9,site=misarpost.com
+
+! ============================================================
+! BOOST — INDIE HACKER & FOUNDER COMMUNITIES
+! ============================================================
+$boost=7,site=indiehackers.com
+$boost=6,site=producthunt.com
+$boost=5,site=hn.algolia.com
+$boost=5,site=news.ycombinator.com
+$boost=5,site=reddit.com
+/r/SaaS/$boost=5,site=reddit.com
+/r/startups/$boost=4,site=reddit.com
+/r/Entrepreneur/$boost=4,site=reddit.com
+/r/webdev/$boost=3,site=reddit.com
+$boost=4,site=wip.co
+$boost=3,site=makerpad.co
+
+! ============================================================
+! BOOST — BOOTSTRAPPED SAAS RESOURCES
+! ============================================================
+$boost=5,site=baremetrics.com
+$boost=4,site=chartmogul.com
+$boost=4,site=profitwell.com
+$boost=4,site=priceintelligently.com
+$boost=4,site=microconf.com
+$boost=3,site=saastr.com
+$boost=3,site=saasmag.com
+$boost=3,site=failory.com
+
+! ============================================================
+! BOOST — NO-CODE / LOW-CODE TOOLS
+! ============================================================
+$boost=4,site=bubble.io
+$boost=4,site=webflow.com
+$boost=4,site=framer.com
+$boost=4,site=glide.com
+$boost=3,site=softr.io
+$boost=3,site=retool.com
+$boost=3,site=appsmith.com
+$boost=3,site=n8n.io
+$boost=3,site=zapier.com
+$boost=3,site=make.com
+
+! ============================================================
+! BOOST — PRODUCT ANALYTICS & GROWTH
+! ============================================================
+$boost=4,site=posthog.com
+$boost=4,site=mixpanel.com
+$boost=4,site=amplitude.com
+$boost=3,site=plausible.io
+$boost=3,site=fathom.green
+$boost=3,site=pirsch.io
+
+! ============================================================
+! BOOST — CUSTOMER SUPPORT / CRM / COMMS
+! ============================================================
+$boost=4,site=crisp.chat
+$boost=3,site=intercom.com
+$boost=3,site=tawk.to
+$boost=3,site=chatwoot.com
+$boost=3,site=hubspot.com
+$boost=3,site=attio.com
+
+! ============================================================
+! BOOST — SAAS BILLING & PAYMENTS
+! ============================================================
+$boost=4,site=stripe.com
+$boost=4,site=paddle.com
+$boost=3,site=lemon.squeezy.com
+$boost=3,site=gumroad.com
+$boost=3,site=chargebee.com
+
+! ============================================================
+! BOOST — QUALITY DEVELOPER TOOLS
+! ============================================================
+$boost=5,site=github.com
+$boost=5,site=vercel.com
+$boost=4,site=supabase.com
+$boost=4,site=netlify.com
+$boost=4,site=railway.app
+$boost=3,site=planetscale.com
+$boost=3,site=turso.tech
+$boost=3,site=fly.io
+
+! ============================================================
+! BOOST — CONTENT & MARKETING TOOLS
+! ============================================================
+$boost=4,site=beehiiv.com
+$boost=4,site=substack.com
+$boost=3,site=convertkit.com
+$boost=3,site=ghost.org
+$boost=3,site=buttondown.email
+
+! ============================================================
+! BOOST — QUALITY URL PATTERNS
+! ============================================================
+/case-study/$boost=3
+/lessons-learned/$boost=3
+/bootstrapped/$boost=3
+/revenue/$boost=2
+/mrr/$boost=2
+/growth/$boost=1
+/review/$boost=1
+
+! ============================================================
+! DOWNRANK — AFFILIATE COMPARISON SPAM
+! ============================================================
+$downrank=7,site=guru99.com
+$downrank=6,site=capterra.com
+$downrank=5,site=g2.com
+$downrank=5,site=getapp.com
+$downrank=5,site=softwareadvice.com
+$downrank=5,site=trustradius.com
+/best-*-software/$downrank=4
+/top-*-saas-tools/$downrank=4
+/saas-tools-list/$downrank=3
+/affiliate/$downrank=7
+/sponsored/$downrank=7
+/*-review-*-affiliate/$downrank=8
+/2018/$downrank=6
+/2019/$downrank=5

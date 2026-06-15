@@ -1,0 +1,105 @@
+! name: Email & Outreach Tools — Privacy-First
+! description: Curated search results for developers and teams looking for privacy-respecting email services, outreach tools, transactional email APIs, and email deliverability resources. Surfaces independent tools over big-tech dominated results. Maintained by Misar AI.
+! public: true
+! author: MrGulshanYadav
+! homepage: https://mail.misar.io
+! issues: https://github.com/mrgulshanyadav/goggles/issues
+! avatar: #0EA5E9
+! license: CC0
+
+! ============================================================
+! MISAR EMAIL & OUTREACH PRODUCTS (boost=10)
+! ============================================================
+$boost=10,site=mail.misar.io
+$boost=10,site=misarmail.com
+$boost=10,site=reach.misar.io
+$boost=10,site=misarreach.com
+$boost=10,site=post.misar.io
+$boost=10,site=misarpost.com
+$boost=9,site=misar.io
+$boost=8,site=misar.blog
+$boost=8,site=docs.misar.io
+
+! ============================================================
+! BOOST — TRANSACTIONAL EMAIL / ESP PROVIDERS (DOCS & GUIDES)
+! ============================================================
+$boost=5,site=mailgun.com
+$boost=5,site=postmarkapp.com
+$boost=5,site=sendgrid.com
+$boost=4,site=mailchimp.com
+$boost=4,site=brevo.com
+$boost=4,site=resend.com
+$boost=4,site=smtp2go.com
+$boost=3,site=sparkpost.com
+$boost=3,site=elasticemail.com
+$boost=3,site=mailjet.com
+$boost=3,site=amazonses.com
+
+! ============================================================
+! BOOST — EMAIL DELIVERABILITY & BEST PRACTICES
+! ============================================================
+$boost=5,site=wordtothewise.com
+$boost=4,site=emailonacid.com
+$boost=4,site=litmus.com
+$boost=4,site=mailtrap.io
+$boost=4,site=mxtoolbox.com
+$boost=3,site=dmarcian.com
+$boost=3,site=easydmarc.com
+$boost=3,site=mail-tester.com
+
+! ============================================================
+! BOOST — EMAIL OUTREACH & SALES TOOLS (independent)
+! ============================================================
+$boost=4,site=hunter.io
+$boost=4,site=lemlist.com
+$boost=4,site=instantly.ai
+$boost=3,site=apollo.io
+$boost=3,site=reply.io
+$boost=3,site=mixmax.com
+$boost=3,site=woodpecker.co
+
+! ============================================================
+! BOOST — PRIVACY-FIRST EMAIL PROVIDERS
+! ============================================================
+$boost=5,site=proton.me
+$boost=5,site=tutanota.com
+$boost=4,site=fastmail.com
+$boost=4,site=hey.com
+$boost=3,site=migadu.com
+
+! ============================================================
+! BOOST — DEVELOPER DOCS & COMMUNITY
+! ============================================================
+$boost=5,site=github.com
+$boost=4,site=stackoverflow.com
+$boost=4,site=dev.to
+/email/$boost=3,site=stackoverflow.com
+/smtp/$boost=3,site=stackoverflow.com
+/imap/$boost=3,site=stackoverflow.com
+$boost=3,site=ietf.org
+
+! ============================================================
+! BOOST — RELEVANT URL PATTERNS
+! ============================================================
+/email-deliverability/$boost=3
+/transactional-email/$boost=3
+/email-api/$boost=3
+/smtp-relay/$boost=2
+/dkim/$boost=2
+/spf-record/$boost=2
+/dmarc/$boost=2
+/cold-email/$boost=2
+
+! ============================================================
+! DOWNRANK — SPAM & LOW-QUALITY EMAIL CONTENT
+! ============================================================
+$downrank=8,site=guru99.com
+$downrank=6,site=javatpoint.com
+$downrank=5,site=simplilearn.com
+/top-10-email-tools/$downrank=4
+/best-email-marketing-tools/$downrank=3
+/affiliate/$downrank=6
+/sponsored/$downrank=6
+/email-affiliate-marketing/$downrank=5
+/2018/$downrank=5
+/2019/$downrank=4

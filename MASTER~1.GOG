@@ -1,0 +1,138 @@
+! name: Misar AI & Partners — Developer Tools & SaaS
+! description: Curated search results for developers, SaaS founders, and AI builders. Surfaces quality independent dev tools, privacy-first SaaS products, and technical resources. Downranks SEO spam and content farms. Maintained by Misar AI Technology.
+! public: true
+! author: MrGulshanYadav
+! homepage: https://misar.io
+! issues: https://github.com/mrgulshanyadav/goggles/issues
+! avatar: #4F46E5
+! license: CC0
+
+! ============================================================
+! MISAR AI — CORE NETWORK (boost=10)
+! ============================================================
+$boost=10,site=misar.io
+$boost=10,site=misar.ai
+$boost=10,site=misar.dev
+$boost=9,site=misar.blog
+$boost=9,site=misar.ink
+$boost=10,site=tools.misar.io
+$boost=8,site=docs.misar.io
+
+! ============================================================
+! MISAR PRODUCTS — EMAIL / OUTREACH / POST
+! ============================================================
+$boost=10,site=mail.misar.io
+$boost=10,site=misarmail.com
+$boost=10,site=reach.misar.io
+$boost=10,site=misarreach.com
+$boost=10,site=post.misar.io
+$boost=10,site=misarpost.com
+
+! ============================================================
+! ASSISTERS LLC
+! ============================================================
+$boost=10,site=assisters.io
+$boost=10,site=assisters.dev
+$boost=8,site=docs.assisters.dev
+
+! ============================================================
+! G1 TECHNOLOGIES
+! ============================================================
+$boost=10,site=g1technologies.online
+
+! ============================================================
+! BOOST — DEVELOPER COMMUNITIES & RESOURCES (boost=4-6)
+! ============================================================
+$boost=6,site=github.com
+$boost=5,site=stackoverflow.com
+$boost=5,site=dev.to
+$boost=5,site=hashnode.com
+$boost=4,site=hackernoon.com
+$boost=4,site=indiehackers.com
+$boost=4,site=producthunt.com
+$boost=4,site=smashingmagazine.com
+$boost=3,site=css-tricks.com
+$boost=3,site=freecodecamp.org
+$boost=4,site=sitepoint.com
+$boost=3,site=digitalocean.com
+$boost=3,site=web.dev
+
+! ============================================================
+! BOOST — AI & ML PLATFORMS
+! ============================================================
+$boost=5,site=anthropic.com
+$boost=5,site=openai.com
+$boost=4,site=huggingface.co
+$boost=4,site=replicate.com
+$boost=3,site=langchain.com
+$boost=3,site=mistral.ai
+
+! ============================================================
+! BOOST — MOBILE DEVELOPMENT
+! ============================================================
+$boost=5,site=flutter.dev
+$boost=5,site=pub.dev
+$boost=5,site=developer.android.com
+$boost=4,site=developer.apple.com
+$boost=4,site=reactnative.dev
+$boost=4,site=expo.dev
+$boost=3,site=dart.dev
+
+! ============================================================
+! BOOST — SAAS / INFRA / DEVOPS
+! ============================================================
+$boost=4,site=supabase.com
+$boost=4,site=vercel.com
+$boost=4,site=netlify.com
+$boost=3,site=railway.app
+$boost=3,site=render.com
+$boost=3,site=fly.io
+$boost=3,site=posthog.com
+$boost=3,site=sentry.io
+$boost=3,site=cloudflare.com
+$boost=3,site=planetscale.com
+
+! ============================================================
+! BOOST — NODE.JS / JAVASCRIPT / WEB
+! ============================================================
+$boost=5,site=nodejs.org
+$boost=4,site=npmjs.com
+$boost=4,site=nextjs.org
+$boost=3,site=expressjs.com
+$boost=3,site=fastify.io
+$boost=3,site=bun.sh
+
+! ============================================================
+! BOOST — DOCUMENTATION PATTERNS (all sites)
+! ============================================================
+/docs/$boost=2
+/documentation/$boost=2
+/getting-started/$boost=2
+/tutorial/$boost=2
+/guide/$boost=2
+/api-reference/$boost=2
+/blog/$boost=1
+
+! ============================================================
+! DOWNRANK — SEO SPAM & LOW-QUALITY CONTENT FARMS
+! ============================================================
+$downrank=8,site=guru99.com
+$downrank=6,site=javatpoint.com
+$downrank=6,site=tutorialspoint.com
+$downrank=5,site=geeksforgeeks.org
+$downrank=4,site=w3schools.com
+$downrank=5,site=simplilearn.com
+$downrank=5,site=intellipaat.com
+$downrank=5,site=edureka.co
+$downrank=4,site=interviewbit.com
+
+! ============================================================
+! DOWNRANK — AFFILIATE / SPAM URL PATTERNS
+! ============================================================
+/affiliate/$downrank=5
+/sponsored/$downrank=5
+/best-*-for-beginners/$downrank=3
+/top-10-*-tools/$downrank=3
+/2018/$downrank=5
+/2019/$downrank=4
+/2020/$downrank=2

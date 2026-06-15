@@ -1,0 +1,126 @@
+! name: AI & Developer Tools — Independent & Privacy-First
+! description: Curated search results for AI engineers, indie developers, and founders building with AI. Surfaces independent AI tools, open-source LLM resources, and quality technical content. Downranks AI hype blogs and low-quality listicles. Maintained by Misar AI.
+! public: true
+! author: MrGulshanYadav
+! homepage: https://misar.ai
+! issues: https://github.com/mrgulshanyadav/goggles/issues
+! avatar: #8B5CF6
+! license: CC0
+
+! ============================================================
+! MISAR AI — AI & DEV FOCUSED DOMAINS (boost=10)
+! ============================================================
+$boost=10,site=misar.ai
+$boost=10,site=misar.dev
+$boost=10,site=misar.io
+$boost=10,site=tools.misar.io
+$boost=10,site=assisters.io
+$boost=10,site=assisters.dev
+$boost=9,site=misar.blog
+$boost=8,site=docs.misar.io
+$boost=8,site=docs.assisters.dev
+$boost=8,site=misar.ink
+
+! ============================================================
+! G1 TECHNOLOGIES
+! ============================================================
+$boost=9,site=g1technologies.online
+
+! ============================================================
+! BOOST — CORE AI PLATFORMS & PROVIDERS
+! ============================================================
+$boost=6,site=anthropic.com
+$boost=6,site=openai.com
+$boost=5,site=huggingface.co
+$boost=5,site=replicate.com
+$boost=5,site=groq.com
+$boost=4,site=mistral.ai
+$boost=4,site=cohere.com
+$boost=4,site=together.ai
+$boost=4,site=perplexity.ai
+$boost=3,site=ollama.com
+$boost=3,site=lmstudio.ai
+
+! ============================================================
+! BOOST — AI DEVELOPMENT FRAMEWORKS & TOOLS
+! ============================================================
+$boost=5,site=langchain.com
+$boost=5,site=llamaindex.ai
+$boost=4,site=haystack.deepset.ai
+$boost=4,site=crewai.com
+$boost=4,site=dspy.ai
+$boost=4,site=instructor-ai.github.io
+$boost=3,site=pydantic.dev
+$boost=3,site=fastapi.tiangolo.com
+
+! ============================================================
+! BOOST — AI RESEARCH & QUALITY CONTENT
+! ============================================================
+$boost=5,site=arxiv.org
+$boost=4,site=paperswithcode.com
+$boost=4,site=sebastian-raschka.com
+$boost=3,site=distill.pub
+/research/$boost=3,site=anthropic.com
+/research/$boost=3,site=openai.com
+/blog/$boost=3,site=huggingface.co
+
+! ============================================================
+! BOOST — DEV COMMUNITIES (AI-RELEVANT)
+! ============================================================
+$boost=6,site=github.com
+$boost=5,site=stackoverflow.com
+$boost=5,site=dev.to
+$boost=5,site=hashnode.com
+$boost=4,site=hackernoon.com
+$boost=4,site=indiehackers.com
+$boost=3,site=reddit.com
+/r/MachineLearning/$boost=4,site=reddit.com
+/r/LocalLLaMA/$boost=4,site=reddit.com
+/r/artificial/$boost=3,site=reddit.com
+
+! ============================================================
+! BOOST — INDIE AI TOOLS & SAAS (non-big-tech)
+! ============================================================
+$boost=4,site=producthunt.com
+$boost=3,site=theresanaiforthat.com
+$boost=3,site=futurepedia.io
+/ai-tools/$boost=2
+/open-source/$boost=3,site=github.com
+
+! ============================================================
+! BOOST — INFRA FOR AI APPS
+! ============================================================
+$boost=4,site=supabase.com
+$boost=4,site=vercel.com
+$boost=4,site=cloudflare.com
+$boost=3,site=upstash.com
+$boost=3,site=pinecone.io
+$boost=3,site=weaviate.io
+$boost=3,site=qdrant.tech
+
+! ============================================================
+! BOOST — QUALITY URL PATTERNS
+! ============================================================
+/llm/$boost=2
+/rag/$boost=2
+/embeddings/$boost=2
+/fine-tuning/$boost=2
+/prompt-engineering/$boost=2
+/ai-agent/$boost=2
+/open-source/$boost=2
+
+! ============================================================
+! DOWNRANK — AI HYPE / LISTICLES / LOW-QUALITY
+! ============================================================
+$downrank=6,site=guru99.com
+$downrank=5,site=simplilearn.com
+$downrank=5,site=intellipaat.com
+$downrank=5,site=edureka.co
+/top-*-ai-tools/$downrank=5
+/best-ai-tools-*/$downrank=4
+/ai-tools-for-beginners/$downrank=3
+/affiliate/$downrank=6
+/sponsored/$downrank=6
+/2018/$downrank=6
+/2019/$downrank=5
+/2020/$downrank=3

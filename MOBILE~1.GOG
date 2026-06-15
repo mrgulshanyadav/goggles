@@ -1,0 +1,125 @@
+! name: Mobile App Development — Flutter, Android, React Native
+! description: Curated search for mobile app developers. Prioritizes official Flutter, Dart, Android, iOS, and React Native documentation, quality community tutorials, and indie dev resources. Downranks outdated tutorials and SEO-stuffed content farms. Maintained by Misar AI / G1 Technologies.
+! public: true
+! author: MrGulshanYadav
+! homepage: https://misar.dev
+! issues: https://github.com/mrgulshanyadav/goggles/issues
+! avatar: #06B6D4
+! license: CC0
+
+! ============================================================
+! MISAR DEV & G1 TECHNOLOGIES (boost=10)
+! ============================================================
+$boost=10,site=misar.dev
+$boost=10,site=g1technologies.online
+$boost=10,site=assisters.dev
+$boost=9,site=misar.io
+$boost=9,site=misar.blog
+$boost=8,site=docs.misar.io
+$boost=8,site=docs.assisters.dev
+$boost=8,site=misar.ink
+
+! ============================================================
+! BOOST — FLUTTER & DART (official)
+! ============================================================
+$boost=8,site=flutter.dev
+$boost=8,site=pub.dev
+$boost=7,site=dart.dev
+/flutter/$boost=4,site=github.com
+/dart-lang/$boost=4,site=github.com
+
+! ============================================================
+! BOOST — ANDROID DEVELOPMENT (official)
+! ============================================================
+$boost=8,site=developer.android.com
+$boost=6,site=source.android.com
+/android/$boost=3,site=github.com
+$boost=5,site=jetpackcompose.app
+$boost=4,site=material.io
+
+! ============================================================
+! BOOST — IOS DEVELOPMENT (official)
+! ============================================================
+$boost=8,site=developer.apple.com
+$boost=5,site=swift.org
+$boost=4,site=swiftui-lab.com
+$boost=3,site=swiftbysundell.com
+$boost=3,site=pointfreeco.com
+
+! ============================================================
+! BOOST — REACT NATIVE & CROSS-PLATFORM
+! ============================================================
+$boost=6,site=reactnative.dev
+$boost=5,site=expo.dev
+$boost=4,site=nativewind.dev
+$boost=3,site=tamagui.dev
+$boost=3,site=shopify.engineering
+/react-native/$boost=3
+
+! ============================================================
+! BOOST — MOBILE DEV COMMUNITIES
+! ============================================================
+$boost=6,site=stackoverflow.com
+/tag/flutter/$boost=5,site=stackoverflow.com
+/tag/android/$boost=4,site=stackoverflow.com
+/tag/react-native/$boost=4,site=stackoverflow.com
+/tag/dart/$boost=4,site=stackoverflow.com
+$boost=5,site=github.com
+$boost=4,site=dev.to
+/flutter/$boost=4,site=dev.to
+/android/$boost=3,site=dev.to
+$boost=4,site=hashnode.com
+/r/flutterdev/$boost=5,site=reddit.com
+/r/androiddev/$boost=4,site=reddit.com
+/r/reactnative/$boost=4,site=reddit.com
+
+! ============================================================
+! BOOST — MOBILE-SPECIFIC TOOLS & SERVICES
+! ============================================================
+$boost=4,site=firebase.google.com
+$boost=4,site=appcenter.ms
+$boost=4,site=bitrise.io
+$boost=3,site=fastlane.tools
+$boost=3,site=codemagic.io
+$boost=3,site=appsflyer.com
+$boost=3,site=amplitude.com
+$boost=3,site=mixpanel.com
+
+! ============================================================
+! BOOST — APP STORE OPTIMIZATION & PUBLISHING
+! ============================================================
+$boost=4,site=play.google.com
+$boost=4,site=apps.apple.com
+$boost=3,site=appfollow.io
+$boost=3,site=storemaven.com
+/app-store-optimization/$boost=2
+/aso/$boost=2
+
+! ============================================================
+! BOOST — QUALITY CONTENT PATTERNS
+! ============================================================
+/tutorial/$boost=2
+/getting-started/$boost=2
+/docs/$boost=3
+/cookbook/$boost=2
+/samples/$boost=2
+
+! ============================================================
+! DOWNRANK — OUTDATED & SPAM CONTENT
+! ============================================================
+$downrank=8,site=guru99.com
+$downrank=7,site=javatpoint.com
+$downrank=6,site=tutorialspoint.com
+$downrank=5,site=geeksforgeeks.org
+$downrank=4,site=w3schools.com
+$downrank=5,site=simplilearn.com
+$downrank=5,site=mindorks.com
+$downrank=4,site=androidhive.info
+/2017/$downrank=6
+/2018/$downrank=6
+/2019/$downrank=5
+/2020/$downrank=3
+/affiliate/$downrank=6
+/sponsored/$downrank=6
+/top-*-flutter-tutorials/$downrank=4
+/best-android-*-2021/$downrank=5
